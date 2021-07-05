@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+}
+
+.container {
+    width: 450px;
+    height: 700px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.datacontainer {
+
+    display: flex;
+    background-color: white;
+    height: 120px;
+    width: 403px;
+    border: 0.1px solid transparent;
+    margin: 0px 6px;
+
+}
+
+.image,
+img {
+    border-radius: 182px;
+    height: 100px;
+    width: 100px;
+}
+
+.name {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 25px;
+}
+
+.year {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: -19px 32px;
+}
+
+.upperheading {
+    text-transform: capitalize;
+    font-size: 21px;
+    margin: 0px 0px;
+    position: relative;
+}
+
+.button {
+    width: 400px;
+    margin: -55px;
+    height: 35px;
+    border: none;
+    text-transform: capitalize;
+    font-size: 19px;
+}
+
+.bigcontainer {}
