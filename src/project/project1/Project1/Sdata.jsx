@@ -9,16 +9,19 @@ const Birthdata = [
         name: 'Garry',
         year: 23,
     },
+    
     {
         image: './image/3img.jpg',
         name: 'Robert',
         year: 18,
     },
+
     {
         image: './image/4img.jpg',
         name: 'MR BEEN',
         year: 32,
     },
+
     {
         image: './image/5img.jpg',
         name: 'WillSmith',
