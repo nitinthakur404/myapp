@@ -4,21 +4,16 @@ import React, { useState, useEffect } from 'react'
 export default function List(props) {
     const [tourdata, settourdata] = useState(props.tourdata)
     const [refresh, setrefresh] = useState()
-    useEffect(() => {
-        settourdata(props.tourdata)
-    }, [refresh])
+
     function notintrested(getindex) {
         settourdata(tourdata.filter((value, index) => index !== getindex))
     }
     return (
         <div className="maincontainer">
-
-
-
-            {(tourdata <= 0) ?
+            {(tourdata.length <= 0) ?
                 <div className="turepart">
                     <h1>no tour</h1>
-                    <button className="refreshButton" onClick={() => { setrefresh(props.tourdata) }}>refresh</button>
+                    <button className="refreshButton" onClick={() => { settourdata(props.tourdata) }}>refresh</button>
                 </div>
                 : <h1 className="OURTOUR">This is our tour</h1>}
 
@@ -39,7 +34,7 @@ export default function List(props) {
                                 </div>
                                 <div className="details-2">
                                     <p className="completeDetails">
-                                        Paris is synonymous with the finest things that culture can offer — in art, fashion, food, literature, and ideas. On this tour, your Paris-savvy Rick Steves guide will immerse you in the very best of the City of Light: the
+                                        {Tourdetails.info}
                                     </p>
                                     <button onClick={() => { notintrested(index) }} className='buttonnotintrested'>not intrested</button>
                                 </div>
