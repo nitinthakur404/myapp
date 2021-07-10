@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    ;
+    background-color: f1f5f8;
+}
+
+.maincontainer {
+    width: 800px;
+    height: 500px;
+    border: 0.1px solid red;
+    display: flex;
+}

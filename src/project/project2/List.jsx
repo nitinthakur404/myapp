@@ -17,9 +17,7 @@ export default function List(props) {
                 </div>
                 : <h1 className="OURTOUR">This is our tour</h1>}
 
-
-
-
+                
             {
                 tourdata.map((Tourdetails, index) => {
                     console.log(Tourdetails)
