@@ -1,13 +1,117 @@
 * {
     padding: 0px;
     margin: 0px;
-    ;
+
     background-color: f1f5f8;
 }
 
-.maincontainer {
-    width: 800px;
-    height: 500px;
-    border: 0.1px solid red;
+.OurReview-txt {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 37px 11px;
+}
+
+.Reviewstxt {
+    font-size: 42px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 4px;
+}
+
+hr.hrline {
+    width: 90px;
+    margin: 3px 1px;
+    height: 5px;
+    border-radius: 56px;
+    color: blue;
+}
+
+.Review {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+       align-content: center;
+    align-items: center;
+
+}
+
+.Reviewcard-main-container {
+    width: 700px;
+    height: 520px;
+    border: 0.2px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.innercircle {
+    width: 150px;
+    height: 150px;
+    border-radius: 83px;
+    background-color: skyblue;
+    margin-top: 30px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 83px;
+    object-fit: cover;
+    margin-top: -166px;
+    margin-right: 16px;
+    z-index: 1;
+}
+
+.Names {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.jobs {
+    color: skyblue;
+    margin: -10px 5px;
+}
+
+.Details {
+    font-size: 16px;
+    text-align: center;
+    padding: 36px 55px;
+    color: #617d98;
+
+}
+
+.Rightbutton {
+    background-color: transparent;
+    border: none;
+    color: #8bcbf9;
+    padding: 2px 9px;
+
+}
+
+.Leftbutton {
+    background-color: transparent;
+    border: none;
+    padding: 2px 9px;
+}
+
+.surpriceME {
+    border: transparent;
+    text-transform: capitalize;
+    height: 30px;
+    width: 102px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 2px;
+    color: #49a6e9;
 }

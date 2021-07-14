@@ -3,12 +3,12 @@ import React from 'react'
 // import Menubar from './project/project1/Menubar'
 // import Test1 from './project/Onlyfortest/Test1'
 // import Birthdaycard from './project/project1/Project1/Birthdaycard'
-// import Tour from './project/project2/Tour'
+//import Tour  from './project/project2/Tour'
 import Reviews from './project/project3/Reviews'
 export default function App() {
   return (
     <div>
-      {/* <Tour/> */}
+      {/* <Tour /> */}
       {/* <Birthdaycard /> */}
       {/* <Menubar /> */}
       {/* <Test1 /> */}
