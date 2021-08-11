@@ -14,17 +14,14 @@ const Accordionmenucard = (props) => {
             <div className="Questions ">
                 <p>
                     {title}
-                    {/* this is not in the action */}
                 </p>
 
                 <button className="button" onClick={() => {
-                    console .log(showInfo,1)
                     setshowInfo(!showInfo)
                 }
 
                 } >{showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />
                     }</button>
-                {console.log(showInfo,2)}
             </div>
             <div className="Answers ">
                 {showInfo && <p>{info}</p>}

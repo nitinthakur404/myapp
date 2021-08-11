@@ -12,8 +12,10 @@ function Accordionmenu() {
 
                 <div className="heading-container">
                     <div className="heading-para">
-                        <p>  Questions And Answers About Login</p>
+                        <p >  Questions And Answers About Login</p>
                     </div>
+                </div>
+                <div className="QuestionsAnswer">
                     {data.map((datas) => {
                         return <Accordionmenucard key={datas.id} data={datas} />
                     })}
