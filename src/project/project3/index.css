@@ -36,9 +36,8 @@ hr.hrline {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-       align-content: center;
+    align-content: center;
     align-items: center;
-
 }
 
 .Reviewcard-main-container {

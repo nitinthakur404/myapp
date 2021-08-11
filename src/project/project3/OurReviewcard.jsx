@@ -5,32 +5,31 @@ function OurReviewcard(props) {
 
     const [index, setindex] = useState(0)
     const { image, name, job, details } = Reviewsdata[index]
-    console.log(Reviewsdata[index])
+    // console.log(Reviewsdata[index])
     const checkno = (number) => {
         if (number > Reviewsdata.length - 1) {
-            console.log(index)
+            console.log(index, '>')
             return 0
         }
         if (number < 0) {
             console.log(number, index)
             return Reviewsdata.length - 1
         }
-        console.log(number)
+        console.log(number, Reviewsdata.length - 1)
         return number
     }
     checkno()
     function nextperson() {
         setindex((index) => {
             let newindex = index + 1
-            return (newindex)
+            return checkno(newindex)
 
         })
     }
     function prevperson() {
         setindex((index => {
             let newindex = index - 1
-            console.log(newindex)
-            return (newindex)
+            return checkno(newindex)
         }))
     }
     function randomno() {
@@ -70,3 +69,5 @@ function OurReviewcard(props) {
 }
 
 export default OurReviewcard
+
+
