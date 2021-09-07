@@ -5,7 +5,7 @@ import './index.css'
 
 
 const Accordionmenucard = (props) => {
-    const [showInfo, setshowInfo] = useState(false)
+    const [showInfo, setshowInfo] = useState()
     const { title, info } = props.data
 
     return (
@@ -19,6 +19,7 @@ const Accordionmenucard = (props) => {
                 <button className="button" onClick={() => {
                     setshowInfo(!showInfo)
                 }
+
 
                 } >{showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />
                     }</button>

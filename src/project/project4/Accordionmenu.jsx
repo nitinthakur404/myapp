@@ -16,8 +16,8 @@ function Accordionmenu() {
                     </div>
                 </div>
                 <div className="QuestionsAnswer">
-                    {data.map((datas) => {
-                        return <Accordionmenucard key={datas.id} data={datas} />
+                    {data.map((data) => {
+                        return <Accordionmenucard key={data.id} data={data} />
                     })}
                 </div>
 

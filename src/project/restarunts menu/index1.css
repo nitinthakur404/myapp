@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-dishcard {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.leftside img {
+    width: 255px;
+    height: 150px;
+    border-right: 0.2rem solid goldenrod;
+        border-bottom: 0.2rem solid goldenrod;
+    object-fit: cover;
+}
+
+.infoshow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoshow h1 {
+    font-size: 21px;
+    padding-top: 18px;
+
+}
+
+.infoshow p {
+
+    font-size: 21px;
+    padding-top: 18px;
+
+}
+
+.Rightside {
+    margin: -13px 16px;
+}
+
+.dishcard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.desc {
+    display: flex;
+    display: flex;
+    width: 17.5rem;
+}
+
+.main-dishcard {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 40rem;
+    height: 12rem;
+}
+
+.dishcards {
+    margin-top: 2.5rem;
+
+}
+
+.menubutton-maincontainer {
+    display: flex;
+    width: 34rem;
+    height: 3.3rem;
+    border: 2px solid transparent;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.menubutton {
+    width: 75px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 6px;
+    border: transparent;
+}
+
+.menu-button {
+    margin-top: 2.5rem;
+}
+
+
+
+.Hrline {
+    padding: 1.2px;
+    margin: 1px 4px;
+}
