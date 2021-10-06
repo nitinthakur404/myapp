@@ -31,7 +31,5 @@ const Accordionmenucard = (props) => {
     )
 }
 export default Accordionmenucard
-{/* {
-   
-} */}
+
 

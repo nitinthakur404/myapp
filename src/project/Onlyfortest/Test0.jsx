@@ -7,7 +7,14 @@ import React from 'react'
 // import Reffunction from './Reffunction'
 // import Controlled from './Controlled.jsx'
 // import Hoccomponant from './Hoccomponant'
-import Routing from './Routing'
+// import Funcationprops1 from './Funcationprops1'
+// import Maincontext from './Maincontext'
+// import Stateprev from './Stateprev'
+// import Statewithobj from './Statewithobj'
+// import Hookcontainer from './Hookcontainer'
+// import Routing from './Routing'
+// import Darafetching from './Darafetching'
+import ComponantO from './ComponantO'
 export default function Test0() {
     return (
         <div>
@@ -20,6 +27,13 @@ export default function Test0() {
             {/* <Controlled /> */}
             {/* <Hoccomponant /> */}
             {/* <Routing /> */}
+            {/* <Funcationprops1 /> */}
+            {/* <Maincontext /> */}
+            {/* <Stateprev /> */}
+            {/* <Statewithobj /> */}
+            {/* <Hookcontainer /> */}
+            {/* <Darafetching /> */}
+            <ComponantO />
         </div>
     )
 }

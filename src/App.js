@@ -6,8 +6,9 @@ import Test0 from './project/Onlyfortest/Test0'
 // import Tour from './project/project2/Tour'
 // import Reviews from './project/project3/Reviews'
 // import Accordionmenu from './project/project4/Accordionmenu'
-import Restaruntsmenu from './project/restarunts menu/Restaruntsmenu'
+// import Restaruntsmenu from './project/restarunts menu/Restaruntsmenu'
 // import { BrowserRouter as Router } from 'react-router-dom'
+
 export default function App() {
   return (
     <div>
@@ -16,11 +17,11 @@ export default function App() {
       {/* <Menubar /> */}
       {/* <Router>
       {/* </Router> */}
-      {/* <Test0 /> */}
+      <Test0 />
       {/* <Reviews /> */}
       {/* <Accordionmenu /> */}
-      <Restaruntsmenu />
-
+      {/* <Restaruntsmenu /> */}
+      {/* <Funcation1props /> */}
     </div>
   )
 }
